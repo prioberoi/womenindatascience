@@ -22,11 +22,13 @@ shinyServer(
       chart <- gvisBubbleChart(data2,idvar="Category",xvar="Employed",yvar="Not.Employed",sizevar="Total",colorvar="Series",
                                options=list(width=1800, height=800,
                                             titlePosition="out",
-                                            chartArea="{width:'100%',height:'80%', legend: {position: 'in'}}",
+                                            chartArea="{width:'90%',height:'80%', legend: {position: 'in'}}",
                                             sizeAxis='{minSize: 20, maxSize: 150}',
                                             colorAxis="{minValue: 0, colors: ['#490A3D','#BD1550','#E97F02','#F8CA00','#8A9B0F']}",
-                                            hAxis="{title:'Total Employed',minValue:-5000000}", #,maxValue:9000000
-                                            vAxis="{title:'Total Unemployed',minValue:-500000}", #
+                                            legend="{position:'in', textStyle:{color: 'black', fontName: 'Calibri'}}",
+                                            hAxis="{title:'Total Employed',minValue:-5000000, textStyle:{color: 'black', fontName: 'Calibri'}}", #,maxValue:9000000
+                                            vAxis="{title:'Total Unemployed',minValue:-500000, textStyle:{color: 'black', fontName: 'Calibri'}}",
+                                            axisTitlesPosition="out",
                                             title="Employment status of scientists and engineers, by sex, ethnicity, race, and disability status: 2013",
                                             titleTextStyle="{color:'#490A3D', fontName:'calibri', fontSize:40}",
                                             bubble="{
