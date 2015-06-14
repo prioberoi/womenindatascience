@@ -1,0 +1,12 @@
+id,Category,Not Employed,Employed,Total,Series
+1,Female,21.26853317,78.73146683,27181000,Gender
+2,Male,16.14815311,83.85184689,29861000,Gender
+3,Hispanic or Latino,15.82096697,84.17903303,4178000,Race
+4,America Indian or Alaska Native,13.125,86.875,160000,Race
+5,Asian,17.27102219,82.72897781,6398000,Race
+6,Black or African American,19.03432877,80.96567123,3583000,Race
+7,Native Hawaiian or Other Pacific Islander,7.831325301,92.1686747,166000,Race
+8,White,19.0375615,80.9624385,41665000,Race
+9,More than one race,19.5968645,80.4031355,893000,Race
+10,Without disability,16.46129356,83.53870644,50883000,Disability
+11,With disability,36.1525974,63.8474026,6160000,Disability
